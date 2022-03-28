@@ -4,4 +4,4 @@ Hello!
 
 This is some new text
 
-woo!
+This is a great added idea
