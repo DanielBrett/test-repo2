@@ -5,4 +5,4 @@ Hello!
 This is some new text
 
 
-This is a great added idea. not!
+This is a great added idea. yes!
