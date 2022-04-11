@@ -21,5 +21,5 @@ jobs:
             ls
             cd Images
             cd ..
-            mv *.jpg *.png Images
+            mv *.jpg Images
             
