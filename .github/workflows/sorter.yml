@@ -25,6 +25,8 @@ jobs:
             
       - name: Commit changes
         run: |
+          git config --global user.name 'DanielBrett'
+          git config --global user.email 'dbrett@brocku.ca'
           git commit -m "Image Sorter Run"
           git push
             
