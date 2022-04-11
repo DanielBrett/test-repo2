@@ -24,7 +24,7 @@ jobs:
             ls
             
       - name: Commit changes
-        run:
-          git commit -am "Image Sorter Run"
+        run: |
+          git commit -m "Image Sorter Run"
           git push
             
