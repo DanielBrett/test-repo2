@@ -23,3 +23,7 @@ jobs:
             cd ..
             mv *.jpg Images
             
+      - name: Commit changes
+        run:
+          git push
+            
