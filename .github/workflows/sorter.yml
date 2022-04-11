@@ -19,9 +19,9 @@ jobs:
         run: |
             pwd
             ls
-            cd Images
-            cd ..
             mv *.jpg Images
+            echo action taken
+            ls
             
       - name: Commit changes
         run:
