@@ -17,12 +17,8 @@ jobs:
 
       - name: sort images
         run: |
-            pwd
-            ls
             mv *.jpg Images
-            echo action taken
-            ls
-            
+      
       - name: Commit changes
         run: |
           git config --global user.name 'DanielBrett'
