@@ -1,10 +1,9 @@
 name: .jpg sorter
 
 on:
-  push:
-    branches: [ main ]
   pull_request:
-    branches: [ main ]
+    paths:
+      - '**.jpg'
 
 jobs:
   sort-files:
