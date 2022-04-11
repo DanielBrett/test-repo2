@@ -25,5 +25,6 @@ jobs:
             
       - name: Commit changes
         run:
+          git commit -m "Image Sorter Run"
           git push
             
