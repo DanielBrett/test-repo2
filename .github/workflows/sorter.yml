@@ -4,6 +4,10 @@ on:
   pull_request:
     paths:
       - '**.jpg'
+  
+  push:
+    paths:
+      - '**.jpg'
 
 jobs:
   sort-files:
