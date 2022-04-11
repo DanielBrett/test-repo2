@@ -1,0 +1,20 @@
+name: File sorter
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+  workflow_dispatch:
+
+jobs:
+  sort-files:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: sort images
+        run: mv *.jpg *.png /Images
+
