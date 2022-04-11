@@ -17,9 +17,9 @@ jobs:
 
       - name: sort images
         run: |
-            shopt -s nullglob
+            echo starting image move
             mv *.jpg Images
-            shopt -u nullglob
+
       
       - name: Commit changes
         run: |
