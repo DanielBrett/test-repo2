@@ -16,11 +16,9 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: sort images
-        run: |
-            echo starting image move
+        run:
             mv *.jpg Images
 
-      
       - name: Commit changes
         run: |
           git config --global user.name 'DanielBrett'
