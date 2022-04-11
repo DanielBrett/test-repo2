@@ -1,12 +1,10 @@
-name: File sorter
+name: .jpg sorter
 
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
-  workflow_dispatch:
 
 jobs:
   sort-files:
@@ -15,8 +13,7 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
-      - name: sort images
-        continue-on-error: true
+      - name: Move .jpg files to images folder
         run:
             mv *.jpg Images
 
