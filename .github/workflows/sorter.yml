@@ -16,5 +16,10 @@ jobs:
       - uses: actions/checkout@v3
 
       - name: sort images
-        run: mv *.jpg *.png ../Images
-
+        run: |
+            pwd
+            ls
+            cd Images
+            cd ..
+            mv *.jpg *.png ../Images
+            
