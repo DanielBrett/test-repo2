@@ -16,9 +16,14 @@ jobs:
     steps:
       - uses: actions/checkout@v3
 
+      - name: Check for Images folder
+        run:
+          if [ ! -d "/Images" ] 
+          then
+            mkdir Images 
+
       - name: Move .jpg files to images folder
-        run: |
-            touch /Images
+        run:
             mv *.jpg Images
 
       - name: Commit changes
