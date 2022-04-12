@@ -20,7 +20,7 @@ jobs:
         run: |
           if [ ! -d "/Images" ] 
           then
-            mkdir Images 
+            mkdir -p Images 
           fi
 
       - name: Move .jpg files to images folder
