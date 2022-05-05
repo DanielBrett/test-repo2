@@ -1,1 +1,1 @@
-<iframe src="https://h5pstudio.ecampusontario.ca/h5p/39823/embed" width="846" height="745" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
+<iframe src="https://h5pstudio.ecampusontario.ca/h5p/39823/embed" width="900" height="900" frameborder="0" allowfullscreen="allowfullscreen"></iframe><script src="https://h5pstudio.ecampusontario.ca/modules/contrib/h5p/vendor/h5p/h5p-core/js/h5p-resizer.js" charset="UTF-8"></script>
